@@ -22,7 +22,7 @@ on:
   workflow_dispatch:
     inputs:
       openwrt_branch:
-        description: 'OpenWrt Branch to build'     
+        description: 'OpenWrt Branch to build'
         required: true
         default: '22.03'
         type: choice
@@ -36,7 +36,7 @@ on:
       model_R2S:
         description: 'Build R2S'
         type: boolean
-        default: true
+        default: false
       model_R2C:
         description: 'Build R2C'
         type: boolean
